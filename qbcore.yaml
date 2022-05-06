@@ -460,7 +460,7 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-loading
 
-  # Modified For LA-CityRP 
+  # Modified For ArtificialRP 
   - action: waste_time # prevent github throttling
     seconds: 10
     
