@@ -8,7 +8,7 @@ description: An advanced FiveM RP framework including jobs, gangs, housing & mor
 tasks:
   #  Download Base Files
   - action: download_github
-    src: https://github.com/LA-CityRP/txAdminRecipe
+    src: https://github.com/Skyline-Roleplay/txAdminRecipe
     ref: main
     dest: ./tmp/qbcore
 
@@ -200,9 +200,9 @@ tasks:
     src: https://github.com/qbcore-framework/qb-lapraces
 
   - action: download_github
-    dest: ./resources/[qb]/qb-inventory
+    dest: ./resources/[qb]/lj-inventory
     ref: main
-    src: https://github.com/qbcore-framework/qb-inventory
+    src: https://github.com/Skyline-Roleplay/lj-inventory
 
   - action: download_github
     dest: ./resources/[qb]/qb-houses
@@ -429,11 +429,11 @@ tasks:
     dest: ./resources/[qb]/qb-drugs
     ref: main
     src: https://github.com/qbcore-framework/qb-drugs
-
+  # Modified For SkylineRP 
   - action: download_github
     dest: ./resources/[qb]/qb-shops
     ref: main
-    src: https://github.com/qbcore-framework/qb-shops
+    src: https://github.com/Skyline-Roleplay/qb-shops
 
   - action: download_github
     dest: ./resources/[qb]/qb-lockpick
@@ -460,14 +460,14 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-loading
 
-  # Modified For ArtificialRP 
+  # Modified For SkylineRP 
   - action: waste_time # prevent github throttling
     seconds: 10
     
   - action: download_github
     dest: ./resources/[qb]/qb-core
     ref: main
-    src: https://github.com/LA-CityRP/qb-core
+    src: https://github.com/Skyline-Roleplay/qb-core
 
   # Clean up
   - action: remove_path
